@@ -70,6 +70,7 @@ public class  TestC {
     @AfterClass
     public static void tearDownAfterClass() throws Exception {
         driver.quit();
+        
     }
 
     @Before
