@@ -61,6 +61,7 @@ public class RestServletTest {
 
 	@Test
 	public void testReloadDb() throws Exception {
+		int i = 600;
 		spec.log().all().expect().statusCode(200).contentType(ContentType.TEXT).body(equalTo("done")).get("/reloadDB");
 	}
 
