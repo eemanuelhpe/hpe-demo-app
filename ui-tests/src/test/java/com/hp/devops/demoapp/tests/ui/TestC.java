@@ -29,6 +29,7 @@ public class  TestC {
         if (isMusicApp) {
             testProxy = "web-proxy.bbn.hp.com:8081";
             appUrl = "http://54.146.140.70:9000";
+            
         }
         else {
             testProxy = "";
