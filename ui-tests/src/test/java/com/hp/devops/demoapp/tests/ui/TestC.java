@@ -34,6 +34,7 @@ public class  TestC {
         else {
             testProxy = "";
             appUrl = "http://myd-vm02771.hpswlabs.adapps.hp.com:8080/jenkins";
+            
         }
 
         if ("true".equals(System.getProperty("proxy"))) {
