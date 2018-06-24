@@ -65,7 +65,7 @@ public class BandTest {
 	public void bandTestC() {
 		test.remove("name");
 		test.remove("logo");
-		Assert.assertEquals(1, 1);
+		Assert.assertEquals(1, 2);
 		
 		/**Band band = new Band(test);
 		Assert.assertEquals(band.id, 1);
