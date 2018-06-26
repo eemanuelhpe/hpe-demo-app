@@ -20,6 +20,7 @@ public class ConfigurationService {
     private String basePath = "/api";
     private String proxyHost = "";  //rhvwebcachevip.bastion.europe.hp.com
     private int proxyPort = 0;  //8080
+    
 
     private ConfigurationService() {
         if (Math.random() >= 0.7) {
