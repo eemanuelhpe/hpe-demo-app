@@ -16,7 +16,7 @@ import java.security.InvalidParameterException;
  * Testing hotspot widget by Ralu test
  */
 public class BandTest {
-	//private String NON_RELATED;
+	//private String NON_RELATED; 
 	private JSONObject test;
 
 	@Before
