@@ -80,7 +80,7 @@ public class BandTest {
 	@Ignore
 	public void bandTestD() {
 		Band band = new Band(test);
-		Assert.assertEquals(test.toString(), band.toJSON().toString());
+		Assert.assertEquals(test.toString(), band.toJSON().toString()); 
 	}
 
 	@Test
