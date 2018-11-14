@@ -62,7 +62,7 @@ public class TestA {
             cap.setCapability(CapabilityType.PROXY, proxy);
             driver = new HtmlUnitDriver(cap);
         }
-        else {
+        else { //
             driver = new HtmlUnitDriver();
         }
         if (System.getProperty("appUrl") != null) {
