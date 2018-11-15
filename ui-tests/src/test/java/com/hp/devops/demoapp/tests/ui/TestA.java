@@ -71,9 +71,7 @@ public class TestA {
         System.out.println("App URL is " + appUrl + "; can                           be modifed via system property, i.e., '-DappUrl=\"http://54.146.140.70:9000\"'");
 
         driver.get(appUrl);
-
     }
-
     @Test
     @Ignore
     public void testUIcaseA() {//
