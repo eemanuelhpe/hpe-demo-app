@@ -56,7 +56,7 @@ public class TestA {
         }
 
         if (isBehindProxy) {
-            Proxy proxy = new Proxy();
+            Proxy proxy = new Proxy();//
             proxy.setHttpProxy(testProxy);
             DesiredCapabilities cap = new DesiredCapabilities();
             cap.setCapability(CapabilityType.PROXY, proxy);
