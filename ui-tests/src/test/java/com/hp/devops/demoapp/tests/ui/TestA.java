@@ -28,7 +28,7 @@ public class TestA {
     static final boolean isMusicApp4 = false;
 
     static private WebDriver driver;
-    static private boolean isBehindProxy = false;
+    static private boolean isBehindProxy = false; //
     static private String testProxy;
     static private String appUrl;
 
