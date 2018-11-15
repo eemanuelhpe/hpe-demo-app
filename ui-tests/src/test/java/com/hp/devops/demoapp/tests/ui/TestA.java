@@ -14,6 +14,8 @@ import org.openqa.selenium.htmlunit.HtmlUnitDriver;
 import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
+
+
 /**
  * Created with IntelliJ IDEA.
  * User:   gullery
@@ -33,6 +35,9 @@ public class TestA {
     static private boolean isBehindProxy = false; //
     static private String testProxy;
     static private String appUrl;
+    
+    
+    //sgfsdg
 
     @BeforeClass
     static public void beforeAll() {
@@ -121,10 +126,8 @@ public class TestA {
     public void faileTestForMailTrackA() {
         Assert.assertTrue(true);
     }
-
-    
-    ss
-    
+    //
+    //ss    
     sdfsdf
     @AfterClass
     static public void afterAll() {
