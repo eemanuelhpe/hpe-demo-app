@@ -14,8 +14,6 @@ import org.openqa.selenium.htmlunit.HtmlUnitDriver;
 import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
-
-
 /**
  * Created with IntelliJ IDEA.
  * User:   gullery
@@ -29,6 +27,8 @@ public class TestA {
     static final boolean isMusicApp = false;
     static final boolean isMusicApp4 = false;
 
+    
+    
     static private WebDriver driver;
     static private boolean isBehindProxy = false; //
     static private String testProxy;
@@ -64,7 +64,7 @@ public class TestA {
             cap.setCapability(CapabilityType.PROXY, proxy);
             driver = new HtmlUnitDriver(cap);
         }
-        else { //
+        else { //fdsf
             driver = new HtmlUnitDriver();
         }
         if (System.getProperty("appUrl") != null) {
