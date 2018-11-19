@@ -11,6 +11,7 @@ import java.io.InterruptedIOException;
  * Testing hotspot widget by Ralu test dfgsdfh
  */
 public class ConfigurationService {
+    //Conf
 
     private static ConfigurationService instance = new ConfigurationService();
 
