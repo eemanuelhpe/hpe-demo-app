@@ -15,6 +15,9 @@ import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
 //
 
+
+//khg
+
 /**
  * Created with IntelliJ IDEA.
  * User:   gullery
