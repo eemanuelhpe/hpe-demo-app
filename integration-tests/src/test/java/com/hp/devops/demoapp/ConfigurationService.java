@@ -58,6 +58,8 @@ public class ConfigurationService {
     public String getProtocol() {
         return protocol;
     }
+    
+    //
 
     public String getHostName() {
         return hostName;
