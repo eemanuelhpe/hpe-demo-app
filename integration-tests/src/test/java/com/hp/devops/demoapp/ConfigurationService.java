@@ -81,9 +81,13 @@ public class ConfigurationService {
         return proxyPort;
     }
 
+    
     public String getBaseUri(){
         return protocol + "://" + hostName;
     }
     
+    
+    
+    //THIS THE
     //commit2
 }
