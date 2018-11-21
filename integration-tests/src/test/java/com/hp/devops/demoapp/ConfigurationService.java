@@ -84,4 +84,6 @@ public class ConfigurationService {
     public String getBaseUri(){
         return protocol + "://" + hostName;
     }
+    
+    //commit2
 }
