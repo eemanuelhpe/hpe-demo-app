@@ -44,6 +44,8 @@ public class RestServletTest {
 	public static void tearDownAfterClass() throws Exception {
 	}
 
+
+
 	@Before
 	public void setUp() throws Exception {
 	}
@@ -51,7 +53,6 @@ public class RestServletTest {
 	@After
 	public void tearDown() throws Exception {
 	}
-
 	@Test
 	public void testGetBands() throws Exception {
 		String result = spec.log().all().expect().statusCode(isOneOf(200)).get("/bands").asString();
@@ -64,6 +65,8 @@ public class RestServletTest {
 		int i = 600;
 		spec.log().all().expect().statusCode(200).contentType(ContentType.TEXT).body(equalTo("done")).get("/reloadDB");
 	}
+	
+	
 
 	@Test
 	public void testVoteForBand() throws Exception {
