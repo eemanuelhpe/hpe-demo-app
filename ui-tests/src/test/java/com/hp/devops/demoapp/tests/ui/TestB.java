@@ -17,6 +17,8 @@ import org.openqa.selenium.htmlunit.HtmlUnitDriver;
 import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
+//test  1
+
 
 //test b
 public class     TestB {
@@ -96,6 +98,8 @@ public class     TestB {
         }
         Assert.assertEquals(query.isDisplayed(), true);
     }
+    
+    
 
     @Category(SpecialTests.class)
     @Test
