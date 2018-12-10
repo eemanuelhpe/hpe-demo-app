@@ -23,6 +23,7 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 
 
 //test b
+//another commit
 public class     TestB {
 
     static final boolean isMusicApp = false;
