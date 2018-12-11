@@ -23,6 +23,7 @@ import org.testng.annotations.Test;
  * Testing hotspot widget by Ralu test test Dan1234
  */
 public class TestSuiteA {
+    //
 
     final static private boolean isMusicApp = false;
 
