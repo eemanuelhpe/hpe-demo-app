@@ -34,6 +34,7 @@ public class TestSuiteA {
     private String proxyPort;   //  8080
     private String appUrl = "";
 ////
+    //
     private void setUp() {
 
         if (isMusicApp) {
