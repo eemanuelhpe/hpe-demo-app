@@ -35,8 +35,8 @@ public class TestSuiteA {
     private String proxyHost;   //  web-proxy.bbn.hp.com
     private String proxyPort;   //  8080
     private String appUrl = "";
+//
 
-    //////
     
     //
     
