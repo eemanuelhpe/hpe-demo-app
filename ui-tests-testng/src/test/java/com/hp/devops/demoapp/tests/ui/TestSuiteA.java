@@ -91,7 +91,7 @@ public class TestSuiteA {
         }
         Assert.assertEquals(query.isDisplayed(), true);
     }
-
+//
     @Test
     public void testCase2() {
         System.out.println("Proudly running test " + Thread.currentThread().getStackTrace()[1]);
