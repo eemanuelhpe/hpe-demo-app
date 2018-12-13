@@ -22,7 +22,7 @@ public class BandTest {
 	//private String NON_RELATED; 
 	private JSONObject test;
 
-	/
+	///
 		
 	@Before
 	public void beforeEach() {
