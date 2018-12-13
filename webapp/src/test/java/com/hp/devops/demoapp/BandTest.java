@@ -23,7 +23,7 @@ public class BandTest {
 	private JSONObject test;
 
 	/
-		/
+		
 	@Before
 	public void beforeEach() {
 		test = new JSONObject();
@@ -89,6 +89,8 @@ public class BandTest {
 		Assert.assertEquals(test.toString(), band.toJSON().toString()); 
 	}
 
+	//
+	//
 	
 	
 	@Test
