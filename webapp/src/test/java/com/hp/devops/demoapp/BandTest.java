@@ -32,6 +32,7 @@ public class BandTest {
 		test.put("logo", "Logo");
 		test.put("song", "Song");
 		test.put("votes", 10);
+		System.out.println("df");
 		
 	}
 
