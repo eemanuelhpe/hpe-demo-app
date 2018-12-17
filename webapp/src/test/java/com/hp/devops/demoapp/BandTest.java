@@ -69,6 +69,7 @@ public class BandTest {
 			Assert.assertEquals(e.getMessage(), "json must have an id property");
 		}
 	}
+	//uhiu
 
 	@Test
 	public void bandTestC() {
