@@ -11,7 +11,6 @@ import java.util.ArrayList;
 
 /**
  * Created with IntelliJ     IDEA.
- * User: gullery 中国 test again打交道
  * Date: 24/11/14fsfsfdffdfdddgfgfgfg
  * Time: 09:58
  * To change this    template use File | Settings | File Templates.hjhjh
@@ -28,8 +27,8 @@ public class DataManager2 {
 		System.out.println("DataManager                        Init");
 		System.out.println("  B   a   n   d  ");
 		if (servletContext != null) {
-			DataManager.servletContext = servletContext;
-			DataManager.loadData();
+			DataManager2.servletContext = servletContext;
+			DataManager2.loadData();
 		} else {
 			throw new InvalidParameterException("servletContext   must not be null");
 		}
@@ -59,7 +58,7 @@ public class DataManager2 {
 					bands.add(new Band(data.getJSONObject(i)));
 				}
 			}
-			DataManager.initialized = true;
+			DataManager2.initialized = true;
 		} catch (IOException ioException) {
 			ioException.printStackTrace();
 		} catch (URISyntaxException uriException) {
@@ -110,7 +109,7 @@ public class DataManager2 {
 
 	static void upVoteBand(int id) throws Exception {
 		if (!initialized) throw new Exception("service not initialized");
-		Band band = DataManager.getBand(id);
+		Band band = DataManager2.getBand(id);
 		if (band != null) {
 			synchronized (band) {
 				band.votes++;
