@@ -88,6 +88,8 @@ public class DataManager5 {
 
 				output.print(json.toString(4));
 				output.close();
+				file.createNewFile();
+	
 			}
 		} catch (IOException ioException) {
 			ioException.printStackTrace();
