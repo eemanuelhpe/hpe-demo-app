@@ -15,7 +15,7 @@ import java.util.ArrayList;
  * Time: 09:58
  * To change this    template use File | Settings | File Templates.hjhjh
  */
-public class DataManager3 {
+public class DataManager5 {
 
 	static private boolean initialized = false;
 	static private Object lock = new Object();
@@ -27,8 +27,8 @@ public class DataManager3 {
 		System.out.println("DataManager                        Init");
 		System.out.println("  B   a   n   d  ");
 		if (servletContext != null) {
-			DataManager3.servletContext = servletContext;
-			DataManager3.loadData();
+			DataManager5.servletContext = servletContext;
+			DataManager5.loadData();
 		} else {
 			throw new InvalidParameterException("servletContext   must not be null");
 		}
@@ -58,7 +58,7 @@ public class DataManager3 {
 					bands.add(new Band(data.getJSONObject(i)));
 				}
 			}
-			DataManager3.initialized = true;
+			DataManager5.initialized = true;
 		} catch (IOException ioException) {
 			ioException.printStackTrace();
 		} catch (URISyntaxException uriException) {
@@ -109,7 +109,7 @@ public class DataManager3 {
 
 	static void upVoteBand(int id) throws Exception {
 		if (!initialized) throw new Exception("service not initialized");
-		Band band = DataManager3.getBand(id);
+		Band band = DataManager5.getBand(id);
 		if (band != null) {
 			synchronized (band) {
 				band.votes++;
