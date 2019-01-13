@@ -70,6 +70,7 @@ public class DataManager5 {
 	}
 
 	static private void saveData() {
+		//
 		JSONArray json = new JSONArray();
 		synchronized (bands) {
 			for (Band band : bands) {
