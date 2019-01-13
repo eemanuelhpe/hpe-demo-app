@@ -42,6 +42,7 @@ public class DataManager5 {
 	static void loadData() {
 		System.out.println("some change");
 		try {
+			
 			if (servletContext == null) throw new Exception("service not initialized");
 			FileResource resource = new FileResource(servletContext.getResource(resourcePath));
 			InputStream inputStream = resource.getInputStream();
