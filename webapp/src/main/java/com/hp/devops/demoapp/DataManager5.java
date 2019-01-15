@@ -93,6 +93,7 @@ public class DataManager5 {
 				output.close();
 				file.createNewFile();
 								file.createNewFile();
+				file.createNewFile();
 
 	
 			}
