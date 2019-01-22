@@ -92,8 +92,11 @@ public class DataManager5 {
 				output.print(json.toString(4));
 				output.close();
 				file.createNewFile();
-								file.createNewFile();
 				file.createNewFile();
+				file.createNewFile();
+				
+				file.createNewFile();
+
 
 	
 			}
