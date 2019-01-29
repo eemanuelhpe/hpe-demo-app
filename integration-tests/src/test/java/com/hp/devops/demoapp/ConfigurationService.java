@@ -26,6 +26,7 @@ public class ConfigurationService {
     private ConfigurationService() {
         if (Math.random() >= 0.7) {
             throw new NullPointerException("this is a random null pointer exception");
+            
         }
     }
     public static ConfigurationService getInstance(){
