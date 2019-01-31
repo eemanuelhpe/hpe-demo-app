@@ -16,7 +16,7 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 
 
 
-//khg
+
 
 /**
  * Created with IntelliJ IDEA.
@@ -62,6 +62,8 @@ public class TestA {
         }
         else {
             System.out.println("We do not use proxy ");
+             System.out.println("We do not use proxy ");
+             System.out.println("We do not use proxy ");
         }
 
         if (isBehindProxy) {
