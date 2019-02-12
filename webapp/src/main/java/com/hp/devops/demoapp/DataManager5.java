@@ -56,6 +56,7 @@ public class DataManager5 {
 				content += new String(buffer, 0, available);
 			}
 			JSONArray data = new JSONArray(content);
+			data = new JSONArray(content);
 			synchronized (bands) {
 				bands = new ArrayList<Band>();
 				for (int i = 0; i < data.length(); i++) {
