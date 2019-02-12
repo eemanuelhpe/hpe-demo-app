@@ -17,6 +17,7 @@ import java.util.ArrayList;
  */
 public class DataManager5 {
 	
+	//DataManger5
 	
 	static private boolean initialized = false;
 	static private Object lock = new Object();
