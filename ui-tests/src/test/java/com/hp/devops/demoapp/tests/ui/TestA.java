@@ -94,6 +94,7 @@ public class TestA {
             Assert.assertEquals(query.getTagName(), "body");
         }
         Assert.assertEquals(query.isDisplayed(), true);
+        
     }
 
     @Category(SpecialTests.class)
