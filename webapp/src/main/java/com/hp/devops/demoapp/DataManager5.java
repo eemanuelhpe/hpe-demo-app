@@ -19,6 +19,7 @@ public class DataManager5 {
 	
 	//DataManger5
 	//DataManager5
+	//Data
 	
 	static private boolean initialized = false;
 	static private Object lock = new Object();
