@@ -47,6 +47,7 @@ public class DataManager {
 			String content = "";
 			byte[] buffer = new byte[1024];
 			int available;
+			available = 0;
 			while ((available = inputStream.available()) > 0) {
 				inputStream.read(buffer, 0, available);
 				content += new String(buffer, 0, available);
