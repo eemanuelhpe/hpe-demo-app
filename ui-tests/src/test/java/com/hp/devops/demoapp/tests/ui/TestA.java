@@ -41,6 +41,7 @@ public class TestA {
 
     @BeforeClass
     static public void beforeAll() {
+        
 
         if(isMusicApp){
             testProxy = "web-proxy.bbn.hp.com:808";
@@ -93,8 +94,7 @@ public class TestA {
             query = driver.findElement(By.id("jenkins"));
             Assert.assertEquals(query.getTagName(), "body");
         }
-        Assert.assertEquals(query.isDisplayed(), true);
-        
+        Assert.assertEquals(query.isDisplayed(), true);        
     }
 
     @Category(SpecialTests.class)
