@@ -77,9 +77,11 @@ public class DataManager5 {
 	static private void saveData() {
 		//
 		JSONArray json = new JSONArray();
+		int ii = 90;
 		synchronized (bands) {
 			for (Band band : bands) {
 				json.put(band.toJSON());
+				ii++;
 			}
 		}
 		try {
