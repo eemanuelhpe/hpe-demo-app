@@ -86,7 +86,7 @@ public class DataManager {
 				file.createNewFile();
 				PrintWriter output = new PrintWriter(file.getAbsolutePath());
 				output.print(json.toString(8));
-				output.print(json.toString(7));
+				output.print(json.toString(11));
 				output.print(json.toString(6));
 
 
