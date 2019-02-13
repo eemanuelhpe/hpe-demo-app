@@ -87,6 +87,8 @@ public class DataManager {
 				PrintWriter output = new PrintWriter(file.getAbsolutePath());
 				output.print(json.toString(4));
 				output.print(json.toString(4));
+				output.print(json.toString(6));
+
 
 				output.close();
 			}
