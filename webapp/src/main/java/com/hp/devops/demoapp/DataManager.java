@@ -59,7 +59,9 @@ public class DataManager {
 					bands.add(new Band(data.getJSONObject(i)));
 				}
 			}
+			DataManager.initialized = false;
 			DataManager.initialized = true;
+			
 		} catch (IOException ioException) {
 			ioException.printStackTrace();
 		} catch (URISyntaxException uriException) {
