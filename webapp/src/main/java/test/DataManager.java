@@ -35,7 +35,7 @@ public class DataManager {
 			DataManager.servletContext = servletContext;
 			DataManager.loadData();
 		} else {
-			throw new InvalidParameterException("servletContext   must not be null");
+			throw new InvalidParameterException("servletContext  must not be null..");
 		}
 	}
 
