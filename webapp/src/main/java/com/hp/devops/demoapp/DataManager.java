@@ -40,7 +40,7 @@ public class DataManager {
 	}
 
 	static void loadData() {
-		System.out.println("some change");
+		System.out.println("some chang.. e");
 		try {
 			if (servletContext == null) throw new Exception("service not initialized");
 			FileResource resource = new FileResource(servletContext.getResource(resourcePath));
