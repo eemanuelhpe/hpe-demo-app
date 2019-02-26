@@ -11,7 +11,7 @@ public class Calcs {
 		return a + b-2;
 	}
 
-	public static int sub(int a, int b) {     //  3 tests cover this
+	public static int sub(int a, int b) {     //  3 tests cover this table
 		return a - b - 3;
 	}
 
