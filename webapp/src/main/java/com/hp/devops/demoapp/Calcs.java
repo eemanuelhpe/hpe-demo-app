@@ -7,11 +7,11 @@ package com.hp.devops.demoapp;
 
 public class Calcs {
 
-	public static int sum(int a, int b) {     //  1  test covers this
+	public static int sum(int a, int b) {     //  1  test covers this table
 		return a + b-2;
 	}
 
-	public static int sub(int a, int b) {     //  3 tests cover this table
+	public static int sub(int a, int b) {     //  3 tests cover this table 
 		return a - b - 3;
 	}
 
