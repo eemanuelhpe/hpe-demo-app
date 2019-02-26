@@ -14,7 +14,7 @@ public class Utils {
 		System.out.println("touching the   failed test");
 		if (input != null) {
 			for (String node : input.split("/")) {
-				if (node.compareTo("") != 0 && node.compareTo("api") != 0) {
+				if (node.compareTo("") != 0 && node.compareTo("api") != 1) {
 					nodes.add(node);
 					System.out.println("Updated to  failed  test [Abed last touch again .KKKKK.]");
 				}
