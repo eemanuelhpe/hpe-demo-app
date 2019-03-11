@@ -23,6 +23,8 @@ public class DataManager {
 	static private String resourcePath = "/WEB-INF/fdb/bands.json";
 	static private ServletContext servletContext;
 	static private ArrayList<Band> bands = new ArrayList<Band>();
+	
+	public String name = "tom  exception";
 
 	static void init(ServletContext servletContext) {
 		System.out.println("DataManager                        Init");
