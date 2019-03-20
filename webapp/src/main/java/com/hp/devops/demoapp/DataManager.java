@@ -90,6 +90,8 @@ public class DataManager {
 				//  do i need it?
 				file.createNewFile();
 				file.createNewFile();
+				file.createNewFile();
+
 		
 
 				
