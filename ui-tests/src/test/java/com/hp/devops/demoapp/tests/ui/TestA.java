@@ -32,6 +32,8 @@ public class TestA {
    static final boolean isMusicApp4 = false;
     //
     
+    
+    
     static private WebDriver driver;
     static private boolean isBehindProxy = false; //
     static private String testProxy;
@@ -113,7 +115,6 @@ public class TestA {
         }
         Assert.assertEquals(query.isDisplayed(), true);
     }
-
     @Test
     public void testUIcaseAlwaysPass() {
         System.out.println("Proudly          running test " + Thread.currentThread().getStackTrace()[1]);
