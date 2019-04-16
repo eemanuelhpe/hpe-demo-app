@@ -40,8 +40,7 @@ public class TestA {
     static private String appUrl;
     
     
-    //sgfsdgfdszfdsfdsfdsdd
-
+    //sgfsd
     @BeforeClass
     static public void beforeAll() {
         
