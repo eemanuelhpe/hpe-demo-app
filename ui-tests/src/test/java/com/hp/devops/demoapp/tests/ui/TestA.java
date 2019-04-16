@@ -40,7 +40,7 @@ public class TestA {
     static private String appUrl;
     
     
-    //sgfsdddddddd
+    //sgf
     @BeforeClass
     static public void beforeAll() {
         
