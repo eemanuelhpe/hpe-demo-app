@@ -92,6 +92,11 @@ public class DataManager {
 				PrintWriter output = new PrintWriter(file.getAbsolutePath());
 				output.print(json.toString(4));
 				output.close();
+				
+				file.createNewFile();
+				PrintWriter output = new PrintWriter(file.getAbsolutePath());
+				output.print(json.toString(4));
+				output.close();
 			}
 		} catch (IOException ioException) {
 			ioException.printStackTrace();
