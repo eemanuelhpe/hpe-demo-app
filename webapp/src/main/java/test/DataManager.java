@@ -107,6 +107,8 @@ public class DataManager {
 				output = new PrintWriter(file.getAbsolutePath());
 				output.print(json.toString(4));
 				file.createNewFile();
+				file.createNewFile();
+
 				output.close();
 			}
 		} catch (IOException ioException) {
