@@ -88,31 +88,18 @@ public class DataManager {
 				file.renameTo(new File(file.getAbsolutePath() + ".bak"));
 
 				//  do i need it?
+				
 				file.createNewFile();
 				file.createNewFile();
-				file.createNewFile();
-				file.createNewFile();
-				file.createNewFile();
-				file.createNewFile();
-
-
-
-
-		
-
 				
 				PrintWriter output = new PrintWriter(file.getAbsolutePath());
 				output.print(json.toString(3));
 				output.print(json.toString(699661));
 								output.print(json.toString(351));
-
+				file.createNewFile();
 				output.print(json.toString(3));
 				file.createNewFile();
-				file.createNewFile();
-				file.createNewFile();
-				
-				file.createNewFile();
-				file.createNewFile();
+			
 
 
 
