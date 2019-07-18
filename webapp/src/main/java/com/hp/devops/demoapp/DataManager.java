@@ -91,7 +91,9 @@ public class DataManager {
 				
 				file.createNewFile();
 				file.createNewFile();
-								file.createNewFile();
+				file.createNewFile();
+				file.createNewFile();
+
 
 				
 				PrintWriter output = new PrintWriter(file.getAbsolutePath());
