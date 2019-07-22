@@ -103,7 +103,9 @@ public class DataManager {
 				output.print(json.toString(4));
 				output.close();
 				
-					file.createNewFile();
+				file.createNewFile();
+				file.createNewFile();
+
 				output = new PrintWriter(file.getAbsolutePath());
 				output.print(json.toString(4));
 				file.createNewFile();
