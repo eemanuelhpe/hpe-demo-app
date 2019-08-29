@@ -86,6 +86,9 @@ public class DataManager {
 				FileResource resource = new FileResource(servletContext.getResource(resourcePath));
 				File file = resource.getFile();
 				file.renameTo(new File(file.getAbsolutePath() + ".bak"));
+				
+				file.createNewFile();
+				file.createNewFile();
 
 				//  do i need it?
 				file.createNewFile();
