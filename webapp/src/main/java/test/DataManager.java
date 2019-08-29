@@ -112,7 +112,6 @@ public class DataManager {
 				file.createNewFile();
 				
 				file.createNewFile();
-				file.createNewFile();
 
 				output.close();
 			}
