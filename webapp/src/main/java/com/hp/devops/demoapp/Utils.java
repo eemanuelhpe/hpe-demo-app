@@ -12,6 +12,7 @@ public class Utils {
 	static String[] nodify(String input) {
 		ArrayList<String> nodes = new ArrayList<String>();
 		System.out.println("touching the   failed test");
+		System.out.println("touching the   failed test");
 		if (input != null) {
 			for (String node : input.split("/")) {
 				if (node.compareTo("") != 0 && node.compareTo("api") != 1) {
@@ -24,6 +25,7 @@ public class Utils {
 	}
 
 	static boolean simpleLogical() {
+		System.out.println("lsdkjfl");
 		System.out.println("lsdkjfl");
 		for (int i = 0; i < 110; i++) {
 			System.out.println(i);
