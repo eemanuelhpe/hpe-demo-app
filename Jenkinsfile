@@ -1,10 +1,28 @@
-node { 
-    checkout scm
+pipeline {
+    agent any
+    tools {
+        maven 'maven'
+    }
+    stages {
+        stage ('Compile Stage') {
 
-    stage 'test'
-    sh 'make test'
+            steps {                
+                    bat 'mvn clean compile'                
+            }
+        }
 
-    
-    stage 'publish'
-    sh 'make publish'
+        stage ('Testing Stage') {
+
+            steps {                
+                   bat 'mvn -Dmaven.test.failure.ignore test'         
+            }
+        }        
+       
+    }    
+    post {         
+         always {
+             junit '**/target/surefire-reports/TEST-*.xml'
+        }              
+    }
 }
+© 2020 GitHub, Inc.
