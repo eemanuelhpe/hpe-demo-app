@@ -18,6 +18,7 @@ public class CalcsTest {
 	//second note
 	@Test
 	public void sum_test_A() {
+		//this is change
 		assertEquals(3, Calcs.sum(1, 2));
 	}
 
