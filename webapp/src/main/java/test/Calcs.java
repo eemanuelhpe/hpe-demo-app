@@ -11,7 +11,10 @@ public class Calcs {
 	private static Random rand = new Random();
 	private static int randomNumber = rand.nextInt(2);
 	
-	public int bla;
+	public int bla;	
+	public int bla3;
+	public int bla4;
+
 	int bla2;
 	
 	public static int sum(int a, int b) {     //  1  test covers this
