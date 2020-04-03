@@ -10,7 +10,10 @@ import java.util.Random;
 public class Calcs {
 	private static Random rand = new Random();
 	private static int randomNumber = rand.nextInt(2);
-
+	
+	public int bla;
+	int bla2;
+	
 	public static int sum(int a, int b) {     //  1  test covers this
 		return a + b +1;
 	}
