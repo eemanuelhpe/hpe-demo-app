@@ -75,7 +75,9 @@ public class DataManager {
 			for (Band band : bands) {
 				json.put(band.toJSON());
 			}
-			System.out.print("add")
+			System.out.print("add");
+			System.out.print("add");
+
 		}
 		try {
 			synchronized (lock) {
