@@ -12,6 +12,11 @@
 		<module>integration-tests</module>
 		<module>ui-tests-testng</module>
 	</modules>
+	
+	<properties>
+  		  <maven.compiler.source>1.6</maven.compiler.source>
+   		 <maven.compiler.target>1.6</maven.compiler.target>
+	</properties>
 
 	<name>Discover Demo App - Tribute to Progressive Music (Parent)</name>
 
