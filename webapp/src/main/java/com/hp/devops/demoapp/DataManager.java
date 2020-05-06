@@ -22,6 +22,8 @@ public class DataManager {
 	static private boolean initializedi2 = false;
 	static private boolean initialized = false;
 	
+	static private boolean initializedi3 = false;
+	static private boolean initialized4 = false;	
 	static private Object lock = new Object();
 	static private String resourcePath = "/WEB-INF/fdb/bands.json";
 	static private ServletContext servletContext;
