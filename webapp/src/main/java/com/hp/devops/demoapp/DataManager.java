@@ -18,7 +18,10 @@ import java.util.ArrayList;
  */
 public class DataManager {
 
+	static private boolean initializedi = false;
+	static private boolean initializedi2 = false;
 	static private boolean initialized = false;
+	
 	static private Object lock = new Object();
 	static private String resourcePath = "/WEB-INF/fdb/bands.json";
 	static private ServletContext servletContext;
@@ -56,6 +59,7 @@ public class DataManager {
 			synchronized (bands) {
 				bands = new ArrayList<Band>();
 				for (int i = 0; i < data.length(); i++) {
+					bands.add(new Band(data.getJSONObject(i)));
 					bands.add(new Band(data.getJSONObject(i)));
 				}
 			}
