@@ -87,6 +87,6 @@ public void failTestForCoverageAnalysisA() {
 	@Test
 	public void testSimpleLogical() {
 		boolean result = Utils.simpleLogical();
-		assertTrue(result);
+		assertTrue(false);
 	}
 }
