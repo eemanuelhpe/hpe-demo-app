@@ -67,6 +67,8 @@ public class UtilsTest {
 		assertEquals(result.length, 2);
 		assertEquals(result[0], "some");
 		assertEquals(result[1], "more");
+				assertEquals(false, true);
+
 	}
 
 	@Test
