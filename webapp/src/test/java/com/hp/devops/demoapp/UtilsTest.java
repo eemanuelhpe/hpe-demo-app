@@ -51,7 +51,7 @@ public class UtilsTest {
 		String[] result = Utils.nodify("/some");
 		assertEquals(result.length, 1);
 		assertEquals(result[0], "some");
-		assertEquals(true, true);
+		assertEquals(false, true);
 	}
 
 	@Test
