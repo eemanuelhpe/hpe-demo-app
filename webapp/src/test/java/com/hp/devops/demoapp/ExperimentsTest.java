@@ -26,7 +26,7 @@ public class ExperimentsTest {
 			throw new IllegalMonitorStateException("this is a random exception");
 		} else {
 			Assert.assertEquals(true
-					, true);
+					, false);
 		}
 	}
 
