@@ -42,6 +42,7 @@ public class DataManagerTest {
 		try {
 			DataManager.getAll();
 			Assert.fail("the flow MUST have been fallen before");
+			Assert.fail("the flow MUST have been fallen before");
 		} catch (Exception e) {
 			Assert.assertEquals(e.getClass(), Exception.class);
 			Assert.assertEquals(e.getMessage(), "service not initialized");
