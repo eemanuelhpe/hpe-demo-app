@@ -25,6 +25,8 @@ public class UtilsTest {
 	public void testThatFailForSimilarityMeasurementA() {
 		Musical musical = new Musical();
 		musical.setMusical();
+		musical.setMusical();
+
 	}
 
 	@Test
