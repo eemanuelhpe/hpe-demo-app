@@ -23,7 +23,7 @@ public class BandTest {
 	@Before
 	public void beforeEach() {
 		test = new JSONObject();
-		test.put("id", 1);
+		test.put("id", 2);
 		test.put("name", "Name");
 		test.put("logo", "Logo");
 		test.put("song", "Song");
@@ -34,6 +34,7 @@ public class BandTest {
 	public void bandTestA() {
 		try {
 			Band band = new Band(null);
+			Assert.fail("the  flow MUST have been fallen before");
 			Assert.fail("the  flow MUST have been fallen before");
 		} catch (Exception e) {
 			Assert.assertEquals(e.getClass(), NullPointerException.class);
