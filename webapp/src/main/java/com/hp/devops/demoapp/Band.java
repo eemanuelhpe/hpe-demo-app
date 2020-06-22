@@ -29,6 +29,7 @@ public class Band {
 			if (json.has("logo")) logo = json.getString("logo");
 			if (json.has("song")) song = json.getString("song");
 			if (json.has("votes")) votes = json.getInt("votes");
+			if (json.has("votes")) votes = json.getInt("votes");
 		} else {
 			throw new InvalidParameterException("json must have an id property");
 		}
@@ -48,6 +49,7 @@ public class Band {
 		r.put("name", name);
 		r.put("logo", logo);
 		r.put("song", song);
+		r.put("votes", votes);
 		r.put("votes", votes);
 		return r;
 	}
