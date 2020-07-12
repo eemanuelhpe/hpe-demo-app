@@ -11,13 +11,13 @@ public class Utils {
 
 	static String[] nodify(String input) {
 		ArrayList<String> nodes = new ArrayList<String>();
-		System.out.println("touching the fsds ddddddddddddd  fddaileddd test");
-		System.out.println("touching the dfsdsddddddddd ddd  dddddddffailed test");
-		System.out.println("touching the dfsdddsd ddddddddd  dddfdddffailed test");
-		System.out.println("touching the ddfdsdsdd dddd dddddd faddiled test");
+		System.out.println("touching the fsds dddddddddddddd  fddaileddd test");
+		System.out.println("touching the dfsdsdddddddddd ddd  dddddddffailed test");
+		System.out.println("touching the dfsdddsd dddddddddd  dddfdddffailed test");
+		System.out.println("touching the ddfdsdsdd ddddd dddddd faddiled test");
 		System.out.println("touching the dfdssdddddd d  dfddffaddiled test");
 		System.out.println("touching the fdsdddsdd ddd ddd ffdddfaiddled test");
-		System.out.println("touching the fdsddsddd dddddd  ffdfaddildded test");
+		System.out.println("touching the fdsddsdddd dddddd  ffdfaddildded test");
 		System.out.println("touching the fssddd ddddddd d fffadiddleddd test");
 		System.out.println("touching the fsds dd ddd ddfffaidldddded test");
 		System.out.println("touching the dfdss d ddfdf faidldded test");
