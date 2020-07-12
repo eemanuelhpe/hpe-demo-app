@@ -12,6 +12,14 @@ public class Utils {
 	static String[] nodify(String input) {
 		ArrayList<String> nodes = new ArrayList<String>();
 		System.out.println("touching the   failed test");
+		System.out.println("touching the   failed test");
+		System.out.println("touching the   failed test");
+		System.out.println("touching the   failed test");
+		System.out.println("touching the   failed test");
+		System.out.println("touching the   failed test");
+		System.out.println("touching the   failed test");
+		System.out.println("touching the   failed test");
+
 		if (input != null) {
 			for (String node : input.split("/")) {
 				//
