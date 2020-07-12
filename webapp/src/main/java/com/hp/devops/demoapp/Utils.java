@@ -12,13 +12,13 @@ public class Utils {
 	static String[] nodify(String input) {
 		ArrayList<String> nodes = new ArrayList<String>();
 		System.out.println("touching the fsds ddddddddddddd  fddaileddd test");
-		System.out.println("touching the fsdsddddddddd ddd  dddddddffailed test");
-		System.out.println("touching the fsdddsd ddddddddd  dddfdddffailed test");
-		System.out.println("touching the dfdsdsdd dddd dddddd faddiled test");
-		System.out.println("touching the dfssdddddd d  dfddffaddiled test");
-		System.out.println("touching the fdsddsdd ddd ddd ffdddfaiddled test");
-		System.out.println("touching the fdsdsddd dddddd  ffdfaddildded test");
-		System.out.println("touching the fssdd ddddddd d fffadiddleddd test");
+		System.out.println("touching the dfsdsddddddddd ddd  dddddddffailed test");
+		System.out.println("touching the dfsdddsd ddddddddd  dddfdddffailed test");
+		System.out.println("touching the ddfdsdsdd dddd dddddd faddiled test");
+		System.out.println("touching the dfdssdddddd d  dfddffaddiled test");
+		System.out.println("touching the fdsdddsdd ddd ddd ffdddfaiddled test");
+		System.out.println("touching the fdsddsddd dddddd  ffdfaddildded test");
+		System.out.println("touching the fssddd ddddddd d fffadiddleddd test");
 		System.out.println("touching the fsds dd ddd ddfffaidldddded test");
 		System.out.println("touching the dfdss d ddfdf faidldded test");
 		System.out.println("touching the fsddds d dddff faddidled test");
