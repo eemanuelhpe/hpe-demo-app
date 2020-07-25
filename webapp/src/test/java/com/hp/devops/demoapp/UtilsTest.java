@@ -37,7 +37,7 @@ public class UtilsTest {
 	@Test
 	public void nodifyTestB() {
 		String[] result = Utils.nodify("");
-		assertEquals(result.length, 0);         //  0 is the right answer
+		assertEquals(result.length, 3);         //  0 is the right answer
 	}
 
 	@Test
