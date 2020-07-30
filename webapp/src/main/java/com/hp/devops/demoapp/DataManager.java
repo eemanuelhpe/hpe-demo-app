@@ -21,6 +21,9 @@ public class DataManager {
 	static private boolean initializedi = false;
 	static private boolean initializedi2 = false;
 	static private boolean initialized = false;
+	static private boolean initializedi1 = false;
+	static private boolean initializedi21 = false;
+	static private boolean initialized1 = false;
 	
 	static private boolean initializedi3 = false;
 	static private boolean initialized4 = false;	
@@ -61,6 +64,8 @@ public class DataManager {
 			synchronized (bands) {
 				bands = new ArrayList<Band>();
 				for (int i = 0; i < data.length(); i++) {
+					bands.add(new Band(data.getJSONObject(i)));
+					bands.add(new Band(data.getJSONObject(i)));
 					bands.add(new Band(data.getJSONObject(i)));
 					bands.add(new Band(data.getJSONObject(i)));
 				}
