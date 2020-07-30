@@ -21,9 +21,9 @@ public class DataManager {
 	static private boolean initializedi = false;
 	static private boolean initializedi2 = false;
 	static private boolean initialized = false;
-	static private boolean initializedi1ddddddd2 = false;
-	static private boolean initializedi2dd1ddd2 = false;
-	static private boolean initialized1ddd2 = false;
+	static private boolean initializedi1dddddddddd2 = false;
+	static private boolean initializedi2dd1ddddd2 = false;
+	static private boolean initialized1ddddd2 = false;
 	
 	static private boolean initializedi3 = false;
 	static private boolean initialized4 = false;	
@@ -55,6 +55,8 @@ public class DataManager {
 			InputStream inputStream = resource.getInputStream();
 			String content = "";
 			byte[] buffer = new byte[1024];
+			
+			
 			int available;
 			while ((available = inputStream.available()) > 0) {
 				inputStream.read(buffer, 0, available);
@@ -67,11 +69,13 @@ public class DataManager {
 					bands.add(new Band(data.getJSONObject(i)));
 					bands.add(new Band(data.getJSONObject(i)));
 					bands.add(new Band(data.getJSONObject(i)));
+					bands.add(new Band(data.getJSONObject(i)));				
+					
+					bands.add(new Band(data.getJSONObject(i)));
 					bands.add(new Band(data.getJSONObject(i)));
 					
-					
 					bands.add(new Band(data.getJSONObject(i)));
-					bands.add(new Band(data.getJSONObject(i)));
+
 
 				}
 			}
