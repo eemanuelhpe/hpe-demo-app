@@ -21,9 +21,9 @@ public class DataManager {
 	static private boolean initializedi = false;
 	static private boolean initializedi2 = false;
 	static private boolean initialized = false;
-	static private boolean initializedi1dddd2 = false;
-	static private boolean initializedi2dd12 = false;
-	static private boolean initialized1dd2 = false;
+	static private boolean initializedi1ddddd2 = false;
+	static private boolean initializedi2dd1d2 = false;
+	static private boolean initialized1ddd2 = false;
 	
 	static private boolean initializedi3 = false;
 	static private boolean initialized4 = false;	
