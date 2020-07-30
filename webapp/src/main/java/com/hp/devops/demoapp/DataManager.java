@@ -21,9 +21,9 @@ public class DataManager {
 	static private boolean initializedi = false;
 	static private boolean initializedi2 = false;
 	static private boolean initialized = false;
-	static private boolean initializedi1dd2 = false;
-	static private boolean initializedi212 = false;
-	static private boolean initialized12 = false;
+	static private boolean initializedi1dddd2 = false;
+	static private boolean initializedi2dd12 = false;
+	static private boolean initialized1dd2 = false;
 	
 	static private boolean initializedi3 = false;
 	static private boolean initialized4 = false;	
@@ -68,8 +68,11 @@ public class DataManager {
 					bands.add(new Band(data.getJSONObject(i)));
 					bands.add(new Band(data.getJSONObject(i)));
 					bands.add(new Band(data.getJSONObject(i)));
+					
+					
 					bands.add(new Band(data.getJSONObject(i)));
 					bands.add(new Band(data.getJSONObject(i)));
+
 				}
 			}
 			DataManager.initialized = true;
