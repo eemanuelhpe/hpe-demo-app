@@ -104,6 +104,8 @@ public class DataManager {
 				output.print(json.toString(4));
 				file.createNewFile();
 				file.createNewFile();
+				file.createNewFile();
+				file.createNewFile();
 				
 				
 				
