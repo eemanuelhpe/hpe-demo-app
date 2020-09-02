@@ -26,9 +26,9 @@ public class DataManager {
 	static private boolean initializedi3 = false;
 	static private boolean initialized4 = false;	
 	static private boolean initializedi5 = false;
-	static private boolean initialized6 = false;
-	static private boolean initializedi7 = false;
-	static private boolean initialized8 = false;	
+	static private boolean initialized44 = false;
+	static private boolean initializedi47 = false;
+	static private boolean initialized48 = false;	
 	static private Object lock = new Object();
 	static private String resourcePath = "/WEB-INF/fdb/bands.json";
 	static private ServletContext servletContext;
@@ -69,14 +69,14 @@ public class DataManager {
 				bands = new ArrayList<Band>();
 				for (int i = 0; i < data.length(); i++) {
 					bands.add(new Band(data.getJSONObject(i)));
-					bands.add(new Band(data.getJSONObject(i)));
-					bands.add(new Band(data.getJSONObject(i)));
-					bands.add(new Band(data.getJSONObject(i)));				
+					
+					
 					bands.add(new Band(data.getJSONObject(i)));
 					bands.add(new Band(data.getJSONObject(i)));
 					bands.add(new Band(data.getJSONObject(i)));
 					
-					
+					bands.add(new Band(data.getJSONObject(i)));
+					bands.add(new Band(data.getJSONObject(i)));					
 					
 					
 					bands.add(new Band(data.getJSONObject(i)));
