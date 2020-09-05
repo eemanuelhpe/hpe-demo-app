@@ -47,7 +47,7 @@ public class DataManager {
 			if (servletContext == null) throw new Exception("service not initialized");
 			FileResource resource = new FileResource(servletContext.getResource(resourcePath));
 			InputStream inputStream = resource.getInputStream();
-			String content = "";
+			String content = "";//
 			byte[] buffer = new byte[1024];
 			int available;
 			available = 0;
@@ -89,18 +89,7 @@ public class DataManager {
 
 				//  do i need it?
 				
-				file.createNewFile();
-				file.createNewFile();
-				file.createNewFile();
-
-				file.createNewFile();
-				file.createNewFile();
-				file.createNewFile();
-				file.createNewFile();
-				file.createNewFile();
-				file.createNewFile();
-
-				file.createNewFile();
+				
 				file.createNewFile();
 
 
