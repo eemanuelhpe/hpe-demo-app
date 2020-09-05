@@ -43,7 +43,7 @@ public class Band {
 	public JSONObject toJSON() {
 		JSONObject r = new JSONObject();
 		r.put("id", id);
-		r.put("name", name);
+		r.put("name", name);//
 		r.put("logo", logo);
 		r.put("song", song);
 		r.put("votes", votes);
