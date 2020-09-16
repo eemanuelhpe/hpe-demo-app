@@ -57,6 +57,7 @@ public class DataManager {
 				inputStream.read(buffer, 0, available);
 				content += new String(buffer, 0, available);
 			}
+			//
 			JSONArray data = new JSONArray(content);
 			synchronized (bands) {
 				bands = new ArrayList<Band>();
