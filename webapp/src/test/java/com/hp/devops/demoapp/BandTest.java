@@ -86,6 +86,7 @@ public class BandTest {
 		Assert.assertEquals(band.name, "");
 		Assert.assertEquals(band.logo, "");
 		Assert.assertEquals(band.song, "Song");
+		Assert.assertEquals(band.song, "Sdong");
 		Assert.assertEquals(band.votes, 10);**/
 	}
 
