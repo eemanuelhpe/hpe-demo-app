@@ -87,10 +87,7 @@ public class DataManager {
 				FileResource resource = new FileResource(servletContext.getResource(resourcePath));
 				File file = resource.getFile();
 				file.renameTo(new File(file.getAbsolutePath() + ".bak"));
-				
-				file.createNewFile();
-				file.createNewFile();
-				file.createNewFile();
+							
 				file.createNewFile();
 
 				//  do i need it?
@@ -98,34 +95,9 @@ public class DataManager {
 				PrintWriter output = new PrintWriter(file.getAbsolutePath());
 				output.print(json.toString(4));
 				output.close();
-				
-				
-				
-				
-
 				output = new PrintWriter(file.getAbsolutePath());
 				output.print(json.toString(4));
-				file.createNewFile();
-				file.createNewFile();
-				file.createNewFile();
-				file.createNewFile();
-				file.createNewFile();
-				file.createNewFile();	
-				
-				
-				
-				
-				
-				
-				file.createNewFile();
-				file.createNewFile();
-				file.createNewFile();		
-				
-				
-				
-				
-				file.createNewFile();
-
+			
 				output.close();
 			}
 		} catch (IOException ioException) {
