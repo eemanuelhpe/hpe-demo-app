@@ -88,7 +88,13 @@ public class DataManager {
 				File file = resource.getFile();
 				file.renameTo(new File(file.getAbsolutePath() + ".bak"));
 							
+
+				
+				
 				file.createNewFile();
+				file.createNewFile();
+				file.createNewFile();
+
 
 				//  do i need it?
 				file.createNewFile();
