@@ -103,6 +103,7 @@ public class DataManager {
 				file.createNewFile();
 				output.print(json.toString(3));
 				file.createNewFile();
+				file.createNewFile();
 			
 
 
